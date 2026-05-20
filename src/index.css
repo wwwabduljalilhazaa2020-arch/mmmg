@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Tajawal', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* تحسينات إضافية لمؤشرات السحب وعناصر التحكم لتبدو أكثر سلاسة */
+input[type="range"] {
+  height: 6px;
+  border-radius: 4px;
+}
